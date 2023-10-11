@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./103.js"></script>
+</head>
+<body>
+    
+    <input id="input" />
+
+    <div id="output">
+        <p>history</p>
+    </div>
+
+    <div id="opp">
+        <button id="/" onclick="op='/', opp()">/</button>
+        <button id="*" onclick="op='*', opp()">*</button>
+        <button id="+" onclick="op='+', opp()">+</button>
+    </div>
+
+    <div id="opp">
+        <button id="-" onclick="op='-', opp()">-</button>
+        <button id="=" onclick="calk()">=</button>
+        
+        <button id="0" onclick="document.getElementById ('input').value += '0'">0</button>
+    </div>
+    
+    <div id="num1">
+        <button id="1" onclick="document.getElementById ('input').value += '1'">1</button>
+        <button id="2" onclick="document.getElementById ('input').value += '2'">2</button>
+        <button id="3" onclick="document.getElementById ('input').value += '3'">3</button>
+    </div>
+
+    <div id="num2">
+        <button id="4" onclick="document.getElementById ('input').value += '4'">4</button>
+        <button id="5" onclick="document.getElementById ('input').value += '5'">5</button>
+        <button id="6" onclick="document.getElementById ('input').value += '6'">6</button>
+    </div>
+
+    <div id="num3">
+        <button id="7" onclick="document.getElementById ('input').value += '7'">7</button>
+        <button id="8" onclick="document.getElementById ('input').value += '8'">8</button>
+        <button id="9" onclick="document.getElementById ('input').value += '9'">9</button>
+    </div>
+
+</body>
+</html>
