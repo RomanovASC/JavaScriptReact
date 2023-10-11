@@ -61,9 +61,6 @@ function calk() {
     let p = document.createElement('p');
     p.textContent = String(result);
     parent.append(p);
-
-parent.append(p);
-//    document.getElementById ('output').value = result;
     result = 0;
     op1 = '';
 }
